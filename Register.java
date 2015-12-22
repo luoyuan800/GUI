@@ -112,7 +112,12 @@ public class Register extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void optionButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_optionButtonActionPerformed
-        new OptionView().setVisible(true);
+       /* Create and display the form */
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new OptionView().setVisible(true);
+            }
+        });
         
     }//GEN-LAST:event_optionButtonActionPerformed
 
