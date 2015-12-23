@@ -3,7 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Res;
+package cn.gavin.ui;
+
+import java.awt.*;
 
 /**
  *
@@ -60,7 +62,6 @@ public class OptionView extends javax.swing.JPanel {
                 cancleActionPerformed(evt);
             }
         });
-
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
